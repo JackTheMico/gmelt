@@ -1,0 +1,5 @@
+credentials_json = "~/.config/gmelt/credentials.json"
+
+# [[accounts]]
+# name = "Gmail"
+# url = "https://mail.google.com"

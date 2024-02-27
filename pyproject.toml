@@ -6,6 +6,9 @@ authors = ["JackTheMico"]
 license = "GPL-3.0-or-later"
 readme = "README.md"
 
+[tool.poetry.scripts]
+gmelt = "gmelt.main:app"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 textual-dev = "^1.4.0"
@@ -13,6 +16,8 @@ google-api-python-client = "^2.118.0"
 google-auth-httplib2 = "^0.2.0"
 google-auth-oauthlib = "^1.2.0"
 confz = "^2.0.1"
+typer = "^0.9.0"
+loguru = "^0.7.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.1"
