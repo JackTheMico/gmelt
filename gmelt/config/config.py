@@ -9,7 +9,7 @@ DEFAULT_CREDENTIALS_JSON = os.path.join(GMELT_CONFIG_HOME, "credentials.json")
 
 
 class GmeltConfig(BaseConfig):
-    credentials_json_path: str
+    credentials_path: str
 
     CONFIG_SOURCES = [
         FileSource(file=DEFAULT_CONFIG_TOML),
